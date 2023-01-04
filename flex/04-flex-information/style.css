@@ -8,8 +8,30 @@ img {
 }
 
 .title {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
   font-size: 36px;
   font-weight: 900;
+}
+
+.spices {
+  display: flex;
+  margin-top: 32px;
+}
+
+.item_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 52px;
+  max-width: 200px;
+}
+
+.text {
+  text-align: center;
 }
 
 /* do not edit this footer */
